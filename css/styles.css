@@ -1,0 +1,139 @@
+body {
+    margin: 0%;
+    font-family: "Helvetica";
+    background-color: #201c1c;
+    color: white;
+}
+.main_header {
+    background-color: black;
+    height: 100px;
+    border-color: #5f0404;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    word-spacing: 15px;
+}
+#placeholder {
+    height: 100%;
+}
+#about {
+    height: auto;
+    margin-top: 15px;
+    border-width: 2px;
+    padding: 10px;
+}
+#profile_picture {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.cover {
+    width: 144px;
+    height: 173px;
+
+}
+.other_cover {
+    width: 150px;
+    height: 225px;
+}
+.title {
+    font-size: 25px;
+    word-spacing: 20px;
+}
+.game_title {
+    word-spacing: 5px;
+}
+.box_art {
+    margin: 15px 15px 0px 15px;
+    width: 288px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: #201c1c;
+    position: relative;
+    z-index: 1;
+}
+#bloodborne {
+    background-image: url("../images/yharnam.jpg");
+    position: relative;
+    z-index: 0;
+}
+.header_title {
+    font-size: 30px;
+}
+.score {
+    margin: 15px;
+    font-size: 40px;
+}
+td {
+    width: 200px;
+    height: 50px;
+}
+.review_body {    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.review_content {
+    width: 700px;
+    font-size: 20px;
+}
+.review_image {
+    font-size: 10px;
+}
+#winter_lantern {
+    width: 170px;
+    height: 270px;
+}
+#mainpage, .review_body {
+    border-left-style: solid;
+    border-right-style: solid;    
+    border-left-color: white;
+    border-right-color: white;
+}
+.video {
+    height: auto;
+}
+#about, table {
+    border-color: white;
+}
+#about, .score {
+    border-radius: 16px;
+}
+#about, .review_content {
+    text-align: justify;
+}
+#about, .review_body {
+    margin-left: auto;
+    margin-right: auto;
+}
+#header, .body_boxart {
+    width: 100%;
+}
+#about, .center {
+    width: 500px;
+}
+li + li, .content {
+    padding-top: 15px;
+}
+.box_art, .score {
+    border-color: #201c1c;
+}
+#boxart, .review_body, .review_image, .video {
+    text-align: center;
+}
+.title, .header_title, .score {
+    font-weight: bold;
+}
+#header, #about, .box_art, .score {
+    border-style: solid; 
+}
+#reviews, #mainpage, .games, .review_body {
+    width: 1000px;
+}
+#profile_picture, h1.center, .box_art, .score, table, .review_content, .review_image {
+    padding: 15px;
+}
+.center, #reviews, #mainpage, .games, #boxart, .body_boxart, table, .review_content, .review_image, .video {
+    margin: auto;
+}
+#placeholder, span.top, #about, #profile_picture, .cover, .other_cover, .box_art, #boxart, .score, #werewolf, #winter_lantern, #bsb {
+    vertical-align: middle;
+}
